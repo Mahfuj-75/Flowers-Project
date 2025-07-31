@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.noto-sans-font {
+  font-family: "Raleway", sans-serif; 
+}
+
+/* Shared Style  */
+
+
+.display-flex{
+    display: flex;
+}
+
+.color-black{
+    color: black;
+}
+
+.color-orange{
+    color: #E95A08;
+}
+
+.color-grey{
+    font-size: 1.35rem;
+    font-family: 'Inter';
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.color-111111{
+    color: #111111;
+}
+
+/* span section  */
+
+.home{
+    color: #252432;
+    font-weight: 600;
+}
+
+.shop{
+    color: #8987A1;
+}
+
+/* Header Section Style  */
+
+/* Nav Section Style  */
+
+.navbar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    font-size: 1.50rem;
+    display: flex;
+    gap: 48px;
+    
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+/* Banner Section Style  */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0px 120px 0px;
+    align-items: end;
+
+}
+
+.banner-container{
+    max-width: 600px;
+    align-items: end;
+    
+}
+
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Main Section  */
+
+header, main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+}
+
+/* Our Plants Section  */
+
+.our-plants-container{
+    text-align: center;
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.our-plants-title{
+    font-size: 3.125rem;
+    margin-bottom: 16px;
+}
+
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 49px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.plants-card{
+    text-align: center;
+    max-width: 270px;
+}
+
+.plants-card-name{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.plants-card-number{
+    font-family: 'Inter';
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.plants-card-cart{
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 19px 0;
+    background-color: #E95A08;
+    color: white;
+}
+
+/* Flower & Plants Lover Section */
+
+.flower-lover{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.flower-trust-badge{
+    max-width: 290px;
+    width: 50%;
+    position: relative;
+    margin-bottom: -180px;
+    margin-right: -200px;
+    margin-left: 400px;
+    
+}
+
+.flower-lover-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower-lover-image{
+    max-width: 580px;
+    margin-right: 150px;
+}
+
+.flower-lover-container{
+    max-width: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower-lover-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+
+.flower-lover-container ul li{
+    margin-bottom: 30px;
+    font-size: 1.30rem;
+    font-family: 'Inter';
+
+}
+
+/* Latest  Deals Section  */
+
+.Latest-deals{
+    margin-bottom: 120px;
+}
+
+
+.latest-deals-container{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.latest-deals-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.latest-deals-description{
+    width: 890px;
+    margin: 0 auto;
+}
+
+.latest-deals-offer{
+    max-width: 1140px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.latest-deals-offer-01{
+    display: grid;
+    position: relative;
+    gap: 20px;
+}
+.offer-60-Off{
+    width: 360px;
+    border-radius: 10px;
+    /* background-image: url(../assets/deal-bloom.png); */
+}
+
+.offer-60-Off-image{
+    border-radius: 15px; 
+}
+
+.offer-60-Off-content{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 85px;
+    text-align: center;
+    color: white;
+}
+
+.offer-60-Off-content a{
+    color: white;
+}
+
+.offer-60-Off-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offer-60-Off-link{
+    font-size: 1rem;
+
+}
+
+.latest-deals-offer-02{
+    position: relative;
+}
+.latest-deals-offer-02 img{
+    border-radius: 20px;
+
+}
+
+.offer-25-content{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 200px;
+    text-align: center;
+    color: white;
+}
+
+.offer-25-title{
+    font-size: 2.50rem;
+    font-weight: bold;
+}
+
+.offer-25-link{
+    font-size: 1.75rem;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.offer-25-link a{
+    color: white;
+}
+
+/* Newsletter Section  */
+
+.newsletter{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 199px 305px 193px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newsletter h3{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.newsletter-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-email{
+    padding: 16px 540px 16px 20px;
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: black;
+    border: none;
+}
+
+.subscribe{
+    padding: 17px 25px 17px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    margin-left: -120px;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* Footer section  */
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    width: 359px;
+    margin-right: 110px;
+}
+.footer-container img{
+    margin-bottom: 16px;
+}
+
+.foot-navbar01 ul li, .foot-navbar02 ul li{
+    list-style: none;
+    margin-right: 110px;
+    margin-bottom: 32px;
+}
+.foot-navbar01 ul li a, .foot-navbar02 ul li a{
+    color: rgba(107, 114, 128, 1) ;
+    text-decoration: none;
+}
+
+.social-media{
+    width: 216px;
+    height: 36px;
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width:576px) {
+    .display-nai{
+        display: none;
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        gap: 28px;
+    }
+    .banner-container{
+        padding: 0px 16px 28px;
+    }
+
+    .our-plants-container{
+        margin-top: 80px;
+        padding: 20px ;
+    }
+    .plants-cards{
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 80px;
+    }
+    .plants-card{
+        width: 150px;
+        height: 340px;
+        padding-left:25px ;
+        margin-bottom: 25px;
+    }
+    .plants-card img{
+        width: 150px;
+        height: 170px;
+    }
+
+    .flower-lover{
+        margin: 0 auto;
+    }
+    .flower-lover-section{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .flower-lover-image{
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .flower-lover-container{
+        padding: 25px;
+    }
+    .latest-deals-container{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .latest-deals-description{
+        width: 330px;
+    }
+    .latest-deals-offer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer-60-Off-image{
+        width: 360px;
+    }
+    .latest-deals-offer-02 img{
+        width: 360px;
+        height: 202px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .offer-25-content{
+        position: absolute;
+        margin-top: -165px;
+        margin-left: 100px;
+        text-align: center;
+        color: white;
+    }
+
+    .offer-25-title{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .offer-25-link{
+        font-size: 1rem;
+        font-family: 'Inter';
+        font-weight: 600;
+    }
+    .newsletter{
+        width: 100%;
+        padding: 110px 0px 65px 0px;
+    }
+
+    .newsletter h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .newsletter-email{
+        padding: 7px 0px 10px 7px;
+        font-size: 1rem;
+        width: 300px;
+        justify-content: center;
+    }
+    .subscribe{
+        position: absolute;
+        margin-left: -95px;
+        padding: 9px;
+
+    }
+    .footer-section{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .footer-container{
+        margin-bottom: 20px;
+    }
+    }
